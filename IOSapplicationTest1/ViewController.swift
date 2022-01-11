@@ -43,13 +43,13 @@ class ViewController: UIViewController {
             textMsg.text = "Hi "+fn+ln+" a youngman"
         }
         else if ag >= 30 && ag <= 49{
-            textMsg.text = "Hi "+fn+ln+" a middle aged man"
+            textMsg.text = "Hi "+fn+ln+" a middle aged person"
         }
         else if ag >= 50 && ag <= 64{
-            textMsg.text = "Hi "+fn+ln+" an experienced man"
+            textMsg.text = "Hi "+fn+ln+" an experienced person"
         }
         else{
-            textMsg.text = "Hi "+fn+ln+" a senior man"
+            textMsg.text = "Hi "+fn+ln+" a senior citizen"
         }
     }
     var ag = 0.0
